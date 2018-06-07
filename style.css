@@ -1,0 +1,73 @@
+section {
+    text-align: center;
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    top: 100px;
+    z-index: 2;
+}
+.header, .nav {
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    top: 20px
+}
+.all {
+    text-align: center;
+    background-color: darkgrey;
+    width: 100%
+
+}
+.section {
+    width: 48%;
+    float: left;
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    top: 20px;
+    height: 19em;
+    z-index: 2;
+}
+body {
+    background-color: darkgrey
+}
+.aside {
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    top: 20px;
+    float: left;
+    width: 36%;
+    height: 19em;
+    z-index: 2;
+}
+.article {
+    background-color: darkgrey;
+    padding: 2%;
+    
+}
+.p {
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+.footer {
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px;
+}
+.spacer {
+    height: 19em;
+
+
+}
