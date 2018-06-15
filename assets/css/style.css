@@ -1,0 +1,23 @@
+
+.jumbotron {
+    background-color: none;
+    background-image: url("psychicbackground.png")
+}
+
+.img-responsive {
+    width: 500px;
+    margin: auto;
+}
+body {
+    background-image: url("psychicbackground.png")
+    
+}
+h1 {
+    text-shadow: 3px 2px red;
+    font-family: fantasy
+}
+h2 {
+    font-family: cursive;
+    text-shadow: 3px 2px black;
+    color: red
+}
