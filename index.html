@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>SpookyGame</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Bazaar Purchases</title>
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
 </head>
-
 <body>
-	<div class="jumbotron">
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-10">
-					<img src="assets/images/psychicheader.png" class="img-responsive" alt="crystalball">
-				</div>
-				<div class="col-md-1"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-6" id="playarea">
-					<p><h1>Spooky Psychic Game</h1></p>
-					<p><h2>Read My Mind: Guess The Letter</h2></p>
-					<p><h2>Wins: 0</h2></p>
-					<p><h2>Losses: 0</h2></p>
-					<p><h2>Guesses Remaining: 9</h2></p>
-					<p><h2>Letters a non-Psychic Would Say: </h2></p>
-				</div>
-				<div class="col-md-5"></div>
-			</div>
-	</div>
-	
 
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
+<div id = "wrapper">
+
+<h1><span>Bazaar Purchases<span></h1>
+
+	<div id="instructions">
+		<p> You have just landed in a foreign country.</p>
+		<p> You have to go to the local Bazaar to purchase your necessities,</p>
+		<p> the only problem is that you are not familiar with the local currency. </p>
+		<p> You win by making exact change for you purchase. Good luck and happy shopping!</p>
+	</div>
+
+	<div class = "container">
+		<div id="price">
+			<h2>Price: <span class="value"></span></h2> 	
+		</div>
+
+		<div id="wintracker">
+			<h3><span id="status"></span></h3>
+			<h3>Wins: <span id="win"></span></h3>
+			<h3>Losses: <span id="loss"></span> </h3>
+		</div>
+	</div>
+
+	
+	<div id="coins">
+    </div>
+
+	<div id ="totalScore">
+		<h2 id = "moneyTotal"><p>Your Payment So Far: </p></h2>
+		
+	</div>
+
+</div>
+
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="Assets/Javascript/game.js"></script>
+
 
 </body>
-
 </html>
