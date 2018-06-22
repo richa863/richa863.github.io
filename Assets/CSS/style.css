@@ -1,0 +1,37 @@
+.mainPic {
+    
+    height: 200px
+    
+
+}
+h1 {
+    text-align: center;
+
+    background-color: blue
+}
+.qImage {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+body {
+    text-align: center;
+    background-image: url(../../Assets/Images/s0802181_sc7.jpeg)
+}
+.question {
+    background-color: blue
+}
+.timer {
+    background-color: blue
+}
+.playerinput {
+    margin-bottom: 5px
+}
+h4 {
+    margin-top: 10px
+}
+#startButton {
+    
+}
